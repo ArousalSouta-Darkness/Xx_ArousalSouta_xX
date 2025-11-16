@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xx_覚醒そうた_xX - VALORANT Esports Team</title>
+    <meta name="description" content="覚醒の瞬間を、この一撃に。プレミアを制す、覚醒の刃。VALORANTプロチーム Xx_覚醒そうた_xX 公式サイト">
+    <meta name="keywords" content="VALORANT, esports, gaming, team, 覚醒そうた, プレミア, 競技">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- パーティクル背景 -->
+    <div class="particles" id="particles"></div>
+
+    <!-- ナビゲーション -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="neon-text-green">Xx_覚醒そうた_xX</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link" data-section="home">HOME</a>
+                <a href="#about" class="nav-link" data-section="about">ABOUT</a>
+                <a href="#members" class="nav-link" data-section="members">MEMBERS</a>
+                <a href="#schedule" class="nav-link" data-section="schedule">SCHEDULE</a>
+                <a href="#results" class="nav-link" data-section="results">RESULTS</a>
+                <a href="#gallery" class="nav-link" data-section="gallery">GALLERY</a>
+                <a href="#contact" class="nav-link" data-section="contact">CONTACT</a>
+                <a href="#sponsors" class="nav-link" data-section="sponsors">SPONSORS</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ホームセクション -->
+    <section id="home" class="section home-section">
+        <div class="home-content">
+            <!-- ★ここにチーム名ロゴを配置★ -->
+            <h1 class="team-logo glitch neon-text-green" data-text="Xx_覚醒そうた_xX">
+                Xx_覚醒そうた_xX
+            </h1>
+            
+            <!-- ★ここにキャッチコピーを入力★ -->
+            <p class="catchphrase-1 neon-text-purple">覚醒の瞬間を、この一撃に。</p>
+            <p class="catchphrase-2 neon-text-red">プレミアを制す、覚醒の刃。</p>
+            
+            <div class="home-buttons">
+                <button class="btn-neon" onclick="scrollToSection('results')">
+                    <i class="fas fa-trophy"></i> 最新戦績を見る
+                </button>
+                <button class="btn-outline" onclick="scrollToSection('about')">
+                    <i class="fas fa-users"></i> チームを知る
+                </button>
+            </div>
+        </div>
+        
+        <!-- 最新ニュース -->
+        <div class="news-card">
+            <h3><i class="fas fa-newspaper"></i> 最新ニュース</h3>
+            <!-- ★ここに最新ニュースを入力★ -->
+            <div class="news-item">
+                <span class="news-date">📅 2024/11/16</span>
+                <span class="news-text">プレミア第3週 勝利！スコア 13-8 で相手チームを圧倒</span>
+            </div>
+            <!-- <div class="news-item">
+                <span class="news-date">🎯 2024/11/15</span>
+                <span class="news-text">新メンバー「覚醒Reyna」が加入！</span>
+            </div>
+            <div class="news-item">
+                <span class="news-date">🏆 2024/11/14</span>
+                <span class="news-text">スクリム戦 5連勝達成！</span>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- ABOUTセクション -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title neon-text-purple">ABOUT TEAM</h2>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3><i class="fas fa-bolt"></i> チーム概要</h3>
+                    <!-- ★ここにチーム概要を入力★ -->
+                    <div class="about-info">
+                        <p><strong>結成日:</strong> 2025年XX月XX日</p>
+                        <p><strong>コンセプト:</strong> 覚醒・反応速度・若き才能の融合</p>
+                        <p><strong>プレイスタイル:</strong> Aggressive + Tactical + Aim重視</p>
+                        <p class="about-description">
+                            私たちは「覚醒」をテーマに、一瞬の判断と正確なエイムで勝利を掴むチームです。
+                            若いメンバーが集まり、日々成長を続けています。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <h3><i class="fas fa-trophy"></i> 戦績・実績</h3>
+                    <!-- ★ここに戦績・実績を入力★ -->
+                    <div class="achievements">
+                        <div class="achievement-item">
+                            <span class="achievement-label">プレミア順位:</span>
+                            <span class="badge badge-green">Advanced4 2位</span>
+                        </div>
+                        <div class="achievement-item">
+                            <span class="achievement-label">過去のトーナメント:</span>
+                            <span class="badge badge-purple">今actにチーム結成のためナシ</span>
+                        </div>
+                        <div class="achievement-item">
+                            <span class="achievement-label">スクリム成績:</span>
+                            <span class="badge badge-red">実績構築中！</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MEMBERSセクション -->
+    <section id="members" class="section members-section">
+        <div class="container">
+            <h2 class="section-title neon-text-green">TEAM MEMBERS</h2>
+            
+            <div class="members-grid">
+                <!-- メンバー1 -->
+                <div class="member-card">
+                    <div class="member-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3 class="member-name">Star</h3>
+                    <p class="member-role">Duelist</p>
+                    <div class="member-agents">
+                        <span class="agent-badge">ウェイレイ</span>
+                        <span class="agent-badge">ヨル</span>
+                    </div>
+                    <p class="member-description">"冷静と覚醒が同居する、チームのフィジカル担当"</p>
+                    <div class="member-settings">
+                        <p><strong>感度:</strong> 0.XX (XXX DPI)</p>
+                        <p><strong>マウス:</strong> XXX</p>
+                        <p><strong>キーボード:</strong> XXX</p>
+                    </div>
+                </div>
+
+                <!-- ★ここに他のメンバー情報を追加★ -->
+                <div class="member-card">
+                    <div class="member-icon">
+                        <i class="fas fa-sword"></i>
+                    </div>
+                    <h3 class="member-name">mawo</h3>
+                    <p class="member-role">Duelist</p>
+                    <div class="member-agents">
+                        <span class="agent-badge">ネオン</span>
+                        <span class="agent-badge">レイナ</span>
+                    </div>
+                    <p class="member-description">"マップ内を縦横無尽に走り回る、最速の韋駄天"</p>
+                    <div class="member-settings">
+                        <p><strong>感度:</strong> </p>
+                        <p><strong>マウス:</strong></p>
+                        <p><strong>キーボード:</strong> </p>
+                    </div>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="member-name">ApocalypseAura</h3>
+                    <p class="member-role">Duelist,Controller</p>
+                    <div class="member-agents">
+                        <span class="agent-badge">オーメン</span>
+                        <span class="agent-badge">ネオン</span>
+                    </div>
+                    <p class="member-description">"チーム内最高ランク、一番の中二病"</p>
+                    <div class="member-settings">
+                        <p><strong>感度:</strong></p>
+                        <p><strong>マウス:</strong></p>
+                        <p><strong>キーボード:</strong></p>
+                    </div>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3 class="member-name">きみが死ぬまで恋をしたい</h3>
+                    <p class="member-role">Controller,Initiator</p>
+                    <div class="member-agents">
+                        <span class="agent-badge">クローブ</span>
+                        <span class="agent-badge">ソーヴァ</span>
+                    </div>
+                    <p class="member-description">"天才肌な頭脳派、チームのIGL担当"</p>
+                    <div class="member-settings">
+                        <p><strong>感度:</strong></p>
+                        <p><strong>マウス:</strong></p>
+                        <p><strong>キーボード:</strong></p>
+                    </div>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 class="member-name">sirasu</h3>
+                    <p class="member-role">Sentinel</p>
+                    <div class="member-agents">
+                        <span class="agent-badge">チェンバー</span>
+                        <span class="agent-badge">サイファー</span>
+                    </div>
+                    <p class="member-description">"百発百中のスナイパー、オペレーターplz"</p>
+                    <div class="member-settings">
+                        <p><strong>感度:</strong></p>
+                        <p><strong>マウス:</strong></p>
+                        <p><strong>キーボード:</strong></p>
+                    </div>
+                </div>
+
+                <div class="member-card">
+                    <div class="member-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 class="member-name">れいん</h3>
+                    <p class="member-role">Flex</p>
+                    <div class="member-agents">
+                        <span class="agent-badge">ジェット</span>
+                        <span class="agent-badge">オーメン</span>
+                    </div>
+                    <p class="member-description">"フィジカルとランクが見合ってねえよ、ダイヤいけ"</p>
+                    <div class="member-settings">
+                        <p><strong>感度:</strong></p>
+                        <p><strong>マウス:</strong></p>
+                        <p><strong>キーボード:</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCHEDULEセクション -->
+    <section id="schedule" class="section schedule-section">
+        <div class="container">
+            <h2 class="section-title neon-text-red">SCHEDULE</h2>
+            
+            <div class="schedule-container">
+                <div class="schedule-card">
+                    <h3><i class="fas fa-calendar"></i> 次回試合予定</h3>
+                    <!-- ★ここに試合予定を入力★ -->
+                    <div class="match-card upcoming">
+                        <div class="match-info">
+                            <h4>プレミア第X週</h4>
+                            <p><strong>対戦相手:</strong> 相手チーム名をここに入力</p>
+                            <p><strong>日時:</strong> 2025年XX月XX日 XX:00</p>
+                            <p><strong>形式:</strong> BO13</p>
+                        </div>
+                        <div class="match-status">
+                            <span class="badge badge-red">UPCOMING</span>
+                        </div>
+                    </div>
+                    
+                    <div class="match-card practice">
+                        <div class="match-info">
+                            <h4>スクリム戦</h4>
+                            <p><strong>対戦相手:</strong> 練習相手チーム名</p>
+                            <p><strong>日時:</strong> 2025年XX月XX日 XX:00 </p>
+                            <p><strong>形式:</strong> BO1 (練習試合)</p>
+                        </div>
+                        <div class="match-status">
+                            <span class="badge badge-green">PRACTICE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESULTSセクション -->
+    <section id="results" class="section results-section">
+        <div class="container">
+            <h2 class="section-title neon-text-purple">RESULTS</h2>
+            
+            <div class="results-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="recent">最近の試合</button>
+                    <button class="tab-btn" data-tab="premier">プレミア</button>
+                    <button class="tab-btn" data-tab="scrims">スクリム</button>
+                </div>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="recent">
+                        <!-- ★ここに最近の試合結果を入力★ -->
+                        <div class="result-card win">
+                            <div class="result-header">
+                                <h3>vs ソフトバンク</h3>
+                                <span class="badge badge-green">敗北</span>
+                            </div>
+                            <p class="result-date">2024/11/15 - プレミア第4週</p>
+                            <div class="result-details">
+                                <div class="result-item">
+                                    <h4>マップスコア</h4>
+                                    <p class="score">8 - 13</p>
+                                    <p class="map">Haven</p>
+                                </div>
+                                <div class="result-item">
+                                    <h4>MVP</h4>
+                                    <p class="mvp">ApocalypseAura</p>
+                                    <p class="stats">20K / 17D / 6A</p>
+                                </div>
+                                <div class="result-item">
+                                    <h4>ハイライト</h4>
+                                    <button class="btn-outline small">
+                                        <i class="fas fa-play"></i> 動画を見る
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="result-card win">
+                            <div class="result-header">
+                                <h3>vs Lii Club 2nd</h3>
+                                <span class="badge badge-green">勝利</span>
+                            </div>
+                            <p class="result-date">2024/11/15 - プレミア第4週</p>
+                            <div class="result-details">
+                                <div class="result-item">
+                                    <h4>マップスコア</h4>
+                                    <p class="score">13 - 2</p>
+                                    <p class="map">Haven</p>
+                                </div>
+                                <div class="result-item">
+                                    <h4>MVP</h4>
+                                    <p class="mvp">君が死ぬまで恋がしたい</p>
+                                    <p class="stats">19K / 7D / 8A</p>
+                                </div>
+                                <div class="result-item">
+                                    <h4>ハイライト</h4>
+                                    <button class="btn-outline small">
+                                        <i class="fas fa-play"></i> 動画を見る
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="premier">
+                        <div class="placeholder">
+                            プレミア戦績をここに追加してください
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="scrims">
+                        <div class="placeholder">
+                            スクリム戦績をここに追加してください
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERYセクション -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <h2 class="section-title neon-text-green">GALLERY</h2>
+            
+            <div class="gallery-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="screenshots">スクリーンショット</button>
+                    <button class="tab-btn" data-tab="highlights">ハイライト動画</button>
+                    <button class="tab-btn" data-tab="artwork">アートワーク</button>
+                </div>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="screenshots">
+                        <!-- ★ここにスクリーンショットを追加★ -->
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <div class="gallery-placeholder">
+                                    <i class="fas fa-image"></i>
+                                </div>
+                                <p>試合スクリーンショット 1</p>
+                            </div>
+                            <div class="gallery-item">
+                                <div class="gallery-placeholder">
+                                    <i class="fas fa-image"></i>
+                                </div>
+                                <p>試合スクリーンショット 2</p>
+                            </div>
+                            <div class="gallery-item">
+                                <div class="gallery-placeholder">
+                                    <i class="fas fa-image"></i>
+                                </div>
+                                <p>試合スクリーンショット 3</p>
+                            </div>
+                            <div class="gallery-item">
+                                <div class="gallery-placeholder">
+                                    <i class="fas fa-image"></i>
+                                </div>
+                                <p>試合スクリーンショット 4</p>
+                            </div>
+                            <div class="gallery-item">
+                                <div class="gallery-placeholder">
+                                    <i class="fas fa-image"></i>
+                                </div>
+                                <p>試合スクリーンショット 5</p>
+                            </div>
+                            <div class="gallery-item">
+                                <div class="gallery-placeholder">
+                                    <i class="fas fa-image"></i>
+                                </div>
+                                <p>試合スクリーンショット 6</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="highlights">
+                        <!-- ★ここにハイライト動画を追加★ -->
+                        <div class="video-grid">
+                            <div class="video-item">
+                                <div class="video-placeholder">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                <h4>エース動画</h4>
+                                <p>覚醒そうたの5K エース集</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="artwork">
+                        <div class="placeholder">
+                            チームアートワークをここに追加してください
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTセクション -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title neon-text-red">CONTACT</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3><i class="fas fa-users"></i> メンバー募集</h3>
+                    <!-- ★ここにメンバー募集情報を入力★ -->
+                    <div class="recruitment-info">
+                        <div class="recruitment-item">
+                            <h4>募集ロール</h4>
+                            <div class="role-badges">
+                                <span class="badge badge-red">Initiator</span>
+                                <span class="badge badge-blue">Sentinel</span>
+                            </div>
+                        </div>
+                        
+                        <div class="recruitment-item">
+                            <h4>必要ランク</h4>
+                            <p>ダイヤ以上</p>
+                        </div>
+                        
+                        <div class="recruitment-item">
+                            <h4>活動時間</h4>
+                            <p>平日 19:00-22:00 / 土日 自由</p>
+                        </div>
+                        
+                        <div class="recruitment-item">
+                            <h4>求める人物像</h4>
+                            <ul>
+                                <li>向上心があり、チームワークを大切にする方</li>
+                                <li>定期的に参加できる方</li>
+                                <li>コミュニケーションを積極的に取れる方</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <h3><i class="fas fa-envelope"></i> お問い合わせ</h3>
+                    <!-- ★ここに連絡先情報を入力★ -->
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h4>Discord</h4>
+                            <p>覚醒そうた#1234</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>Twitter</h4>
+                            <p>@kakusei_souta</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>メール</h4>
+                            <p>contact@kakusei-team.com</p>
+                        </div>
+                        
+                        <button class="btn-neon full-width">
+                            <i class="fas fa-external-link-alt"></i> 応募フォームを開く
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SPONSORSセクション -->
+    <section id="sponsors" class="section sponsors-section">
+        <div class="container">
+            <h2 class="section-title neon-text-purple">PARTNERS & SPONSORS</h2>
+            
+            <div class="sponsors-container">
+                <div class="sponsors-card">
+                    <div class="sponsors-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>サポーター募集中</h3>
+                    <p>
+                        私たちのチームを支援してくださるスポンサー様を募集しています。<br>
+                        一緒にeスポーツシーンを盛り上げていきましょう！
+                    </p>
+                    
+                    <!-- ★ここにスポンサーロゴを追加★ -->
+                    <div class="sponsors-grid">
+                        <div class="sponsor-slot">
+                            <span>スポンサー 1</span>
+                        </div>
+                        <div class="sponsor-slot">
+                            <span>スポンサー 2</span>
+                        </div>
+                        <div class="sponsor-slot">
+                            <span>スポンサー 3</span>
+                        </div>
+                        <div class="sponsor-slot">
+                            <span>スポンサー 4</span>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-neon">
+                        <i class="fas fa-envelope"></i> スポンサーシップについて
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Xx_覚醒そうた_xX. All rights reserved.</p>
+            <p class="footer-subtitle">Powered by へかーと | VALORANT Esports Team</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
