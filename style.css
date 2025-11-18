@@ -660,6 +660,15 @@ body {
     transition: var(--transition-smooth);
 }
 
+.member-icon img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .member-card:hover .member-icon {
     border-color: var(--neon-purple);
     color: var(--neon-purple);
@@ -1335,3 +1344,4 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
